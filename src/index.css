@@ -1,0 +1,21 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+@font-face {
+  font-family: "NicoMoji";
+  src: url("./assets/fonts/NicoMoji-Regular.ttf") format("truetype");
+}
