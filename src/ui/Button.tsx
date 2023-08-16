@@ -5,7 +5,7 @@ interface IProps {
 }
 
 const Button = ({ children }: IProps) => {
-  return <button className={styles.button}>{children}</button>;
+  return <button className={`${styles.button} noselect`}>{children}</button>;
 };
 
 export default Button;

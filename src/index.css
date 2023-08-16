@@ -39,6 +39,12 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.carousel.carousel-slider {
+  overflow: unset;
+}
+.control-dots {
+  bottom: -30px !important;
+}
 @font-face {
   font-family: "NicoMoji";
   src: url("./assets/fonts/NicoMoji-Regular.ttf") format("truetype");

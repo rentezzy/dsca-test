@@ -1,5 +1,6 @@
 .advantages {
   padding-top: 96px;
+  padding-bottom: 105px;
   background-color: #fcfcfc;
 }
 .advantages h2 {
@@ -25,7 +26,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 54px 97px;
-  margin-bottom: 105px;
 }
 .advantage {
   box-sizing: border-box;
