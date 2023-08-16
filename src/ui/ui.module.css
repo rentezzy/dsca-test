@@ -16,6 +16,9 @@
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navLink {
   margin: 0px 15px;
@@ -56,4 +59,13 @@
   display: flex;
   align-items: center;
   gap: 9px;
+}
+.socials {
+  display: flex;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.socialElement {
+  width: 27px;
+  height: 27px;
 }

@@ -5,8 +5,8 @@ import arrow from "./../assets/arrow.svg";
 const Internalisation = () => {
   return (
     <div className={styles.internalisation}>
-      <img src={world} alt="" />
-      <img src={arrow} alt="" />
+      <img src={world} alt="" className="noselect" />
+      <img src={arrow} alt="" className="noselect" />
     </div>
   );
 };
