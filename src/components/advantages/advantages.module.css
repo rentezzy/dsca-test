@@ -1,0 +1,44 @@
+.advantages {
+  padding-top: 96px;
+  background-color: #fcfcfc;
+}
+.advantages h2 {
+  padding: 0;
+  margin: 0;
+  color: var(--purple-color);
+  font-family: Montserrat;
+  font-size: 50px;
+
+  font-weight: 700;
+}
+.advantages p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.advantagesList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 54px 97px;
+  margin-bottom: 105px;
+}
+.advantage {
+  box-sizing: border-box;
+  display: flex;
+  gap: 30px;
+  flex: 0 0 325px;
+  align-items: flex-end;
+}
+.advantage p {
+  font-size: 22px;
+  margin: 0;
+}
+.advantage img {
+  width: 58px;
+  height: 63px;
+}
