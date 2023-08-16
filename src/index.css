@@ -3,17 +3,41 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --purple-color: #666eb2;
+  --orange-color: #edb41a;
+  --blue-color: #88a1d3;
+  --dark-blue-color: #393663;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  padding: 0;
+  margin: 0;
+}
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
+  height: 100%;
+}
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.flex_center_sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 @font-face {
   font-family: "NicoMoji";

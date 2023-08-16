@@ -1,9 +1,9 @@
-import styles from "./App.module.css";
+import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className="container">
-      <p className={styles.asd}>asdasd</p>
+    <div>
+      <Header />
     </div>
   );
 }
