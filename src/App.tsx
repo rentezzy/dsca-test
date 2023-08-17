@@ -1,4 +1,5 @@
 import { Advantages } from "./components/advantages/Advantages";
+import { Faq } from "./components/faq/Faq";
 import Header from "./components/header/Header";
 import { Prices } from "./components/prices/Prices";
 import { Reviews } from "./components/reviews/Reviews";
@@ -15,7 +16,10 @@ function App() {
       <Services />
       <Prices />
       <Tracking />
-      <Reviews />
+      <div className="reviews_faq">
+        <Reviews />
+        <Faq />
+      </div>
     </div>
   );
 }

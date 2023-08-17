@@ -1,0 +1,40 @@
+.faq {
+  padding-top: 100px;
+  padding-bottom: 109px;
+}
+.faq h2 {
+  margin-bottom: 39px;
+}
+.faq__card {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid #555;
+  background: #fcfcfc;
+  box-shadow: 0px 4px 70px 5px rgba(0, 0, 0, 0.02);
+  margin-bottom: 33px;
+}
+.faq__card__question {
+  margin: 31px 0px 31px 64px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.faq__card__plus {
+  line-height: 35px;
+  margin: 0;
+  margin-right: 14px;
+  font-size: 30px;
+}
+.faq__button {
+  margin: 66px auto 0px;
+  width: 283px;
+  height: 54px;
+}
+.faq__button button {
+  font-size: 18px;
+
+  font-weight: 700;
+}

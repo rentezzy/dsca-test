@@ -51,6 +51,9 @@ h2 {
 .control-dots {
   bottom: -30px !important;
 }
+.reviews_faq {
+  background: linear-gradient(156deg, #fcfcfc 0%, #f8f9fa 100%);
+}
 @font-face {
   font-family: "NicoMoji";
   src: url("./assets/fonts/NicoMoji-Regular.ttf") format("truetype");

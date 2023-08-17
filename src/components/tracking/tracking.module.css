@@ -32,6 +32,10 @@
   width: 283px;
   height: 54px;
 }
+.tracking__button button {
+  font-size: 16px;
+  font-weight: 700;
+}
 .tracking__input {
   margin-bottom: 33px;
 }
