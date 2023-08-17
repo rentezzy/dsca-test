@@ -32,6 +32,8 @@
   padding: 19px 33px 33px 33px;
 }
 .cardInfo__title {
+  color: #393663;
+
   margin-top: 0;
   font-size: 20px;
   font-weight: 600;

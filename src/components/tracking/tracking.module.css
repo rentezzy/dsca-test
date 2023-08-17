@@ -17,6 +17,8 @@
   font-size: 26px;
 }
 .tracking__text strong {
+  color: #393663;
+
   font-weight: 600;
 }
 .tracking__map {
