@@ -1,11 +1,8 @@
 .services {
   background: linear-gradient(156deg, #fcfcfc 0%, #f8f9fa 100%);
+  padding-bottom: 123px;
 }
 .services h2 {
-  margin: 0;
-  font-size: 50px;
-  font-weight: 700;
-  color: var(--purple-color);
   margin-bottom: 39px;
 }
 .services p {
@@ -48,4 +45,5 @@
 }
 .cardInfo__button button {
   border-radius: 0 0 10px 10px;
+  box-shadow: none;
 }

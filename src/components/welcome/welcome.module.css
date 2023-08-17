@@ -19,13 +19,7 @@
   align-self: self-start;
 }
 .info__title {
-  font-family: Montserrat;
-  color: var(--purple-color);
-  font-size: 50px;
-  font-weight: 700;
   line-height: 65px;
-  text-align: left;
-  margin-top: 0;
   margin-bottom: 40px;
 }
 .info__title strong {
