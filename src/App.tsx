@@ -1,5 +1,6 @@
 import { Advantages } from "./components/advantages/Advantages";
 import { Faq } from "./components/faq/Faq";
+import { Footer } from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import { Prices } from "./components/prices/Prices";
 import { Reviews } from "./components/reviews/Reviews";
@@ -20,6 +21,7 @@ function App() {
         <Reviews />
         <Faq />
       </div>
+      <Footer />
     </div>
   );
 }

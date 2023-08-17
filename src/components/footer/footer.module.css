@@ -1,0 +1,26 @@
+.footer {
+  padding-top: 94px;
+  padding-bottom: 106px;
+  background: var(--dark-blue-color);
+  color: var(--blue-color);
+}
+.footer h2 {
+  color: var(--blue-color);
+  margin-bottom: 50px;
+}
+.footer__list {
+  display: flex;
+  gap: 85px;
+}
+.footer__card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.footer_socials {
+  flex-direction: row;
+  gap: 7px;
+}
+.footer__card p {
+  margin: 0;
+}
