@@ -96,3 +96,108 @@
 .carousel__info_selected {
   background-color: var(--orange-color);
 }
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input input[type="number"] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.input label {
+  font-size: 20px;
+}
+.input input {
+  box-sizing: border-box;
+  margin-top: 7px;
+  padding: 5px 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid var(--purple-color);
+  background-color: #fcfcfc;
+}
+/* RANGE */
+.range {
+  display: flex;
+  flex-direction: column;
+}
+.range label {
+  font-size: 20px;
+}
+.range__bullet {
+  position: relative;
+  display: block;
+  width: 33px;
+  text-align: center;
+  height: 19px;
+  transform-origin: center center;
+  border-radius: 5px;
+  border: 1px solid var(--purple-color);
+  color: var(--orange-color);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+.range__info {
+  display: flex;
+  justify-content: space-between;
+}
+.range__info span {
+  position: relative;
+  left: 0;
+  display: block;
+}
+.rangeInput {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.rangeInput:focus {
+  outline: none;
+}
+
+.rangeInput::-webkit-slider-runnable-track {
+  background-color: var(--purple-color);
+  border-radius: 0.5rem;
+  height: 1px;
+}
+
+.rangeInput::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -5.5px;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+}
+
+.rangeInput::-moz-range-track {
+  background-color: #555555;
+  border-radius: 0.5rem;
+  height: 1px;
+}
+
+.rangeInput::-moz-range-thumb {
+  background-color: var(--orange-color);
+  border: none;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+}

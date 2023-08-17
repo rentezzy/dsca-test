@@ -10,6 +10,7 @@ export const Prices = () => {
         </h2>
         <PricesForm />
       </div>
+      <div className={styles.prices_wideline}></div>
     </div>
   );
 };

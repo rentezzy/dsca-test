@@ -1,4 +1,4 @@
-import Button from "../../ui/Button";
+import { Button } from "../../ui/Controls";
 import { Carousel } from "../../ui/Carousel";
 import styles from "./services.module.css";
 

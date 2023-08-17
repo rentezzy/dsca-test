@@ -1,5 +1,5 @@
 import styles from "./welcome.module.css";
-import Button from "../../ui/Button";
+import { Button } from "../../ui/Controls";
 import play from "../../assets/play.svg";
 
 const WelcomeButtons = () => {
