@@ -49,3 +49,11 @@
   border-radius: 0 0 10px 10px;
   box-shadow: none;
 }
+@media (max-width: 1170px) {
+  .cards {
+    justify-content: space-between;
+  }
+  .cards > div:nth-child(2) {
+    display: none;
+  }
+}

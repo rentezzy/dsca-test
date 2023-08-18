@@ -50,6 +50,7 @@
   border: 1px solid black;
   border-radius: 10px;
 }
+
 .buttons > div:nth-child(1) {
   flex: 0 1 670px;
 }
@@ -81,4 +82,22 @@
   position: absolute;
   top: 27%;
   right: 9%;
+}
+@media (max-width: 1835px) {
+  .welcomeVideo div {
+    width: 500px;
+  }
+}
+@media (max-width: 1500px) {
+  .welcomeVideo div {
+    width: 300px;
+  }
+}
+@media (max-width: 1300px) {
+  .welcomeVideo {
+    display: none;
+  }
+  .buttons > div:nth-child(2) {
+    display: none;
+  }
 }

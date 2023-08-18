@@ -31,6 +31,21 @@ h2 {
 
   height: 100%;
 }
+@media (max-width: 1170px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;

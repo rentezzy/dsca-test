@@ -19,7 +19,8 @@
 }
 .form {
   z-index: 5;
-  width: 970px;
+  width: 85%;
+  max-width: 970px;
   height: 456px;
   border-radius: 10px;
   border: 1px solid #e4e4e4;
@@ -79,4 +80,13 @@
   margin: 0 auto;
   height: 54px;
   width: 283px;
+}
+@media (max-width: 1170px) {
+  .form {
+    /* width: 770px; */
+    height: auto;
+  }
+  .form__inputBlock {
+    flex-wrap: wrap;
+  }
 }

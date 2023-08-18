@@ -201,3 +201,18 @@
   height: 12px;
   width: 12px;
 }
+@media (max-width: 1300px) {
+  .carousel__control {
+    display: none;
+  }
+}
+@media (max-width: 1170px) {
+  .carousel__control {
+    display: block;
+  }
+}
+@media (max-width: 886px) {
+  .carousel__control {
+    display: none;
+  }
+}
